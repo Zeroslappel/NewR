@@ -39,7 +39,6 @@
     }
   },
   "commandUnload": [
-    "autolink.js",
-    "prefix.js"
+    "autolink.js"
   ]
 }
