@@ -3,6 +3,7 @@ const axios = require("axios");
 module.exports = {
   config: {
     name: "stella",
+    aliases:["astrid","lilith"],
     category: "ai",
   },
   onStart: async function ({ message, args }) {
