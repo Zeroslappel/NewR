@@ -2,8 +2,8 @@ const axios = require('axios');
 
 module.exports = {
   config: {
-    name: "define",
-    aliases: ["de"],
+    name: "define",    
+    aliases:["def"],
     version: "1.0",
     author: "August Quinn & kshitiz",
     countDown: 5,

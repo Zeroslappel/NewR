@@ -10,6 +10,7 @@
 	"dependencies": {
 		"@distube/ytdl-core": "^4.13.2",
 		"@jarif098/ytdl-core": "^1.0.2",
+		"@neoxr/ytdl-core": "^4.11.5",
 		"axios": "^1.4.0",
 		"bcrypt": "^5.0.1",
 		"canvas": "^2.9.1",
@@ -31,6 +32,7 @@
 		"graphql-query-to-json": "^2.0.1",
 		"https": "^1.0.0",
 		"jsonlint-mod": "^1.7.6",
+		"jsqr": "^1.4.0",
 		"moment-timezone": "^0.5.34",
 		"mongoose": "^6.3.1",
 		"mqtt": "^4.3.7",
@@ -41,6 +43,7 @@
 		"passport": "^0.6.0",
 		"passport-local": "^1.0.0",
 		"path": "^0.12.7",
+		"qrcode": "^1.5.3",
 		"qrcode-reader": "^1.0.4",
 		"qs": "^6.11.0",
 		"request": "^2.88.2",

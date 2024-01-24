@@ -38,7 +38,5 @@
       "allow": true
     }
   },
-  "commandUnload": [
-    "autolink.js"
-  ]
+  "commandUnload": []
 }

@@ -1,7 +1,7 @@
 {
   "facebookAccount": {
-    "email": "",
-    "password": "",
+    "email": "lappelzeros0010@gmail.com",
+    "password": "*the*1*friend*",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
@@ -26,7 +26,7 @@
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
   "nickNameBot": "‌",
-  "prefix": "‌",
+  "prefix": "?",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
