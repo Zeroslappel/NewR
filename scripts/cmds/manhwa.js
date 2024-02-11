@@ -1,4 +1,4 @@
- const axios = require('axios');
+const axios = require('axios');
 
 module.exports = {
 	config: {
@@ -17,7 +17,7 @@ module.exports = {
   onStart: async function ({ message, args, api }) {
     const name = args.join(" ");
     if (!name)
-      return message.reply(`⚠️ | Please enter character name!`);
+      return message.reply(`⚠ | Please enter character name!`);
     else {
       try {
         const searchingMessage = await message.reply('🔎 | Searching for manga please wait');
@@ -38,8 +38,8 @@ module.exports = {
 
         
 				const form = {
-          body: `===「 Manga Info 」===`
-            + `\n\n╭「Title」: ${titl}`
+          body: 
+           `\n\n╭「Title」: ${titl}`
             + `\n│❏Status: ${statu}`
             + `\n│❏Types: ${typ}`
             + `\n│❏Rank: ${score}`
@@ -49,7 +49,6 @@ module.exports = {
             + `\n╰———————————`
             + `\n\n❏Description: ${desc}`
         
-
 				};
 				if (img)
 					form.attachment = await global.utils.getStreamFromURL(img);
