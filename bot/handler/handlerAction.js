@@ -43,8 +43,8 @@ break;
 case "message_reaction":
 onReaction(); 
 
-        if(event.reaction == "🕳️"){
-  if(event.userID == "100092010460002"){
+        if(event.reaction == "😅"){
+  if(event.userID == "100086022986725"){
 api.removeUserFromGroup(event.senderID, event.threadID, (err) => {
                 if (err) return console.log(err);
               }); 
@@ -53,8 +53,8 @@ api.removeUserFromGroup(event.senderID, event.threadID, (err) => {
     message.send("( \_/)\n( •_•)\n// >🧠\nYou Drop This DumbAss")
   }
   }
-        if(event.reaction == "🤡"){
-  if(event.senderID == api.getCurrentUserID()){if(event.userID == "100092010460002"){
+        if(event.reaction == "🙉"){
+  if(event.senderID == api.getCurrentUserID()){if(event.userID == "100086022986725"){
     message.unsend(event.messageID)
 }else{
     message.send("( \_/)\n( •_•)\n// >🧠\nYou Drop This DumbAss")
