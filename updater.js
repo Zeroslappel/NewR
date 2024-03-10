@@ -12,7 +12,7 @@ catch (e) {
 } 
 
 const sep = path.sep;
-const currentConfig = require('./config.json');
+const currentConfig = require('./config.dev.json');
 const langCode = currentConfig.language;
 const execSync = require('child_process').execSync;
 
