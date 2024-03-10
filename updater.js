@@ -9,7 +9,7 @@ try {
 }
 catch (e) {
 	chalk = require("chalk");
-}
+} 
 
 const sep = path.sep;
 const currentConfig = require('./config.json');
