@@ -112,7 +112,7 @@ fs.copyFileSync = function (src, dest) {
 
 	for (const version of versionsNeedToUpdate) {
 		for (const filePath in version.files) {
-			if (["config.json", "configCommands.json"].includes(filePath)) {
+			if (["config.dev.json", "configCommands.dev.json"].includes(filePath)) {
 				if (!createUpdate.files[filePath])
 					createUpdate.files[filePath] = {};
 
