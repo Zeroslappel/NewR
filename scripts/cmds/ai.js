@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const Prefixes = ["II", "ii"];
+const Prefixes = ["II", "ii",".."];
 
 module.exports = {
   config: {
