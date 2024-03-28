@@ -17,7 +17,7 @@ module.exports = {
   },
 
   onStart: async function ({ api, event, args, message }) {
-    api.setMessageReaction("🕐", event.messageID, (err) => {}, true);
+    api.setMessageReaction("", event.messageID, (err) => {}, true);
 
     try {
       const response = await axios.get(`https://wifey-shoti.onrender.com/kshitiz`, { responseType: "stream" });
